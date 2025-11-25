@@ -48,13 +48,7 @@
 
     // Gallery muta porque controlamos active
     let gallery = [
-        {
-            id: "v1",
-            type: "video",
-            src: "https://www.youtube.com/embed/dlm57ZPNabg?autoplay=1&mute=1",
-            alt: "Investigación aplicada en ciudad",
-            active: false
-        },
+
         {
             id: "i1",
             type: "image",
@@ -84,12 +78,34 @@
             active: false
         },
         {
-            id: "v2",
-            type: "video",
-            src: "https://www.youtube.com/embed/_PpNQrVIC28?autoplay=1&mute=1",
+            id: "i5",
+            type: "image",
+            src: "https://d26q11cgz8q0ri.cloudfront.net/2025/11/17231645/MM6A4701.jpg",
             alt: "Summit Cities in Transition",
             active: false
+        },
+        {
+            id: "i5",
+            type: "image",
+            src: "https://d26q11cgz8q0ri.cloudfront.net/2025/10/28172052/CCP-3.jpg",
+            alt: "Investigación aplicada en ciudad",
+            active: false
+        },
+        {
+            id: "i3",
+            type: "image",
+            src: "https://d26q11cgz8q0ri.cloudfront.net/2025/11/25151856/Jordy-scaled.png",
+            alt: "Opinión",
+            active: false
+        },
+        {
+            id: "i4",
+            type: "image",
+            src: "https://d26q11cgz8q0ri.cloudfront.net/2025/11/25152357/EtMday-2025-099-scaled.jpg",
+            alt: "",
+            active: false
         }
+
     ];
 
     // Toggle: solo uno puede estar activo, y si se vuelve a clickear se desactiva
