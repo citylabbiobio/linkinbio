@@ -232,7 +232,7 @@
 
         <!-- Footer -->
         <footer>
-            <p><b>Ciencia de ciudad al sur del mundo</b></p>
+            <p><b>Ciencia de ciudad al sur del mundo 💛</b></p>
             <p>Arturo Prat 525, Concepción - Región del Biobío</p>
 
             <div class="collaboration">
