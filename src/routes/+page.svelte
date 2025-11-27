@@ -184,6 +184,7 @@
         </section>
 
         <!-- Gallery -->
+        {#if false}
         <section class="gallery-section" aria-labelledby="gallery-title">
             <h2 id="gallery-title" class="section-title">Destacados</h2>
             <div class="gallery" role="list">
@@ -227,6 +228,7 @@
                 {/each}
             </div>
         </section>
+            {/if}
 
         <!-- Footer -->
         <footer>
