@@ -17,6 +17,11 @@
             url: "https://citylabbiobio.cl/cities-in-transition",
         },
         {
+            title: "Microdocumentales",
+            description: "Los desafíos del Summit junto a City Science Network",
+            url: "https://www.youtube.com/playlist?list=PL_C8grluozpiPrphpb5u-CTLS2btH_Az0",
+        }
+        {
             title: "Contacto",
             description: "Conectemos",
             url: "mailto:contacto@citylabbiobio.cl",
