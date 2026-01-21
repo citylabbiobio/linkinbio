@@ -1,6 +1,22 @@
 <script>
+    // Google Analytics event tracking
+    function trackClick(category, label) {
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'click', {
+                'event_category': category,
+                'event_label': label
+            });
+        }
+    }
+
     // Datos (const donde no se mutan)
     const mainLinks = [
+        /*{
+          title: "Visor Reporte Incendios 2026",
+          description: "Visor Reporte Incendios 2026",
+          utl: "https://reporteincendios.citylabbiobio.cl",
+        },
+         */
         {
             title: "Microestudios",
             description: "Investigación urbana aplicada",
@@ -147,7 +163,7 @@
             <h2 id="links-title" class="visually-hidden">Enlaces principales</h2>
             <div class="links-grid">
                 {#each mainLinks as link}
-                    <a href={link.url} class="link-block" target="_blank" rel="noopener noreferrer" aria-label={link.title}>
+                    <a href={link.url} class="link-block" target="_blank" rel="noopener noreferrer" aria-label={link.title} on:click={() => trackClick('main_link', link.title)}>
                         <h2>{link.title}</h2>
                         <p>{link.description}</p>
                     </a>
@@ -164,6 +180,7 @@
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label={social.platform}
+                            on:click={() => trackClick('social_link', social.platform)}
                     >
                         {#if social.icon === "instagram"}
                             <svg viewBox="0 0 24 24" fill="currentColor">
