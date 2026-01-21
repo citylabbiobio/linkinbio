@@ -25,7 +25,7 @@
             title: "Reporte Incendios 2026",
             description: "Temporada Incendios Forestales en el Biobío",
             url: "reporteincendios.citylabbiobio.cl",
-        }
+        },
         {
             title: "Contacto",
             description: "Conectemos",
