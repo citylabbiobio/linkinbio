@@ -22,6 +22,11 @@
             url: "https://www.youtube.com/playlist?list=PL_C8grluozpiPrphpb5u-CTLS2btH_Az0",
         },
         {
+            title: "Reporte Incendios 2026",
+            description: "Temporada Incendios Forestales en el Biobío",
+            url: "reporteincendios.citylabbiobio.cl",
+        }
+        {
             title: "Contacto",
             description: "Conectemos",
             url: "mailto:contacto@citylabbiobio.cl",
