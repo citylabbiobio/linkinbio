@@ -2,11 +2,6 @@
     // Datos (const donde no se mutan)
     const mainLinks = [
         {
-            title: "Reporte Incendios 2026",
-            description: "Temporada Incendios Forestales en el Biobío",
-            url: "https://reporteincendios.citylabbiobio.cl",
-        },        
-        {
             title: "Microestudios",
             description: "Investigación urbana aplicada",
             url: "https://citylabbiobio.cl/documentos-y-estudios",
