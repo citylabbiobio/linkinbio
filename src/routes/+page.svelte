@@ -14,7 +14,7 @@
         {
           title: "Visor Reporte Incendios 2026",
           description: "Junto a Deep-Hub e Imagine-IT",
-          utl: "https://reporteincendios.citylabbiobio.cl",
+          url: "https://reporteincendios.citylabbiobio.cl",
         },
         {
             title: "Microestudios",
