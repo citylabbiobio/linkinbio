@@ -1,4 +1,5 @@
 <script>
+    import { base } from '$app/paths';
     // Google Analytics event tracking
     function trackClick(category, label) {
         if (typeof gtag !== 'undefined') {
@@ -29,7 +30,7 @@
         {
             title: "El lab en medios",
             description: "Apariciones en prensa",
-            url: "/medios",
+            url: `${base}/medios`,
         },
         {
             title: "City Science Summit 2025",

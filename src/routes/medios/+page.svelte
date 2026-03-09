@@ -1,4 +1,5 @@
 <script>
+    import { base } from '$app/paths';
     const mediaItems = [
         {
             outlet: "El Sur",
@@ -38,7 +39,7 @@
 <main>
     <div class="container">
         <header>
-            <a href="/" class="back-link">← Volver</a>
+            <a href="{base}/" class="back-link">← Volver</a>
             <h1>El lab en medios</h1>
             <p class="tagline">Marzo 2026</p>
         </header>
