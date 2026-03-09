@@ -27,6 +27,11 @@
             url: "https://citylabbiobio.cl/noticias",
         },
         {
+            title: "El lab en medios",
+            description: "Apariciones en prensa",
+            url: "/medios",
+        },
+        {
             title: "City Science Summit 2025",
             description: "Event Hub & Documentación",
             url: "https://citylabbiobio.cl/cities-in-transition",
@@ -63,7 +68,7 @@
             platform: "YouTube",
             url: "https://youtube.com/@citylabbiobio",
             icon: "youtube"
-        }
+        },
     ];
 
     // Gallery muta porque controlamos active
@@ -162,7 +167,14 @@
             <h2 id="links-title" class="visually-hidden">Enlaces principales</h2>
             <div class="links-grid">
                 {#each mainLinks as link}
-                    <a href={link.url} class="link-block" target="_blank" rel="noopener noreferrer" aria-label={link.title} on:click={() => trackClick('main_link', link.title)}>
+                    <a
+                        href={link.url}
+                        class="link-block"
+                        target={link.url.startsWith('/') ? '_self' : '_blank'}
+                        rel={link.url.startsWith('/') ? undefined : 'noopener noreferrer'}
+                        aria-label={link.title}
+                        on:click={() => trackClick('main_link', link.title)}
+                    >
                         <h2>{link.title}</h2>
                         <p>{link.description}</p>
                     </a>
