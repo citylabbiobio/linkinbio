@@ -38,9 +38,9 @@
             url: "https://citylabbiobio.cl/cities-in-transition",
         },
         {
-            title: "Microdocumentales",
-            description: "Los desafíos del Summit junto a City Science Network",
-            url: "https://www.youtube.com/playlist?list=PL_C8grluozpiPrphpb5u-CTLS2btH_Az0",
+            title: "Inscripción Lanzamiento TJUSTO",
+            description: "Núcleo Milenio en Transporte Justo",
+            url: "https://docs.google.com/forms/d/e/1FAIpQLSdD03WdRMQGkTH2N9FNaybWA6HYOn2Z0fZgXqC7XIatS3Kh8A/viewform",
         },
         {
             title: "Contacto",

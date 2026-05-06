@@ -2,37 +2,54 @@
     import { base } from '$app/paths';
     const mediaItems = [
         {
-            outlet: "El Sur",
-            logo: "https://d26q11cgz8q0ri.cloudfront.net/2026/03/06113333/El-sur.png ",
-            title: "San Pedro de la Paz registraría retraso vial de hasta 50 minutos en el “súper lunes",
-            date: "02-03-2026",
-            url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=52779094&email=553514&fromemail=1",
-            type: "Prensa escrita"
-        },
-        {
-            outlet: "HoyxHoy Concepción",
-            logo: "https://d26q11cgz8q0ri.cloudfront.net/2026/03/06120236/28.png",
-            title: "Superlunes tuvo tacos de hasta 50 minutos y velocidad de 4 km/h",
-            date: "04-03-2026",
-            url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=52826752&email=553944&fromemail=1",
-            type: "Digital"
-        },
-        {
-            outlet: "Radio Bío-Bío",
-            logo: "https://d26q11cgz8q0ri.cloudfront.net/2026/03/06113319/biobio-radio.png",
-            title: "Entrevista a Fernando Pérez, director principal de City Lab Biobío, sobre impacto vial del 'súper lunes' en el Gran Concepción",
-            date: "04-03-2025",
-            url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=52807603&email=553944&fromemail=1",
-            type: "Radio"
+            outlet: "El Conquistador",
+            title: "Un beso y chao - Marcela Martínez Bascuñán directora de Estudios de City Lab Biobío",
+            date: "01-04-2026",
+            url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=53406983&email=558836&fromemail=1",
+            type: "Sitio web"
         },
         {
             outlet: "Radio UdeC",
-            logo: "https://d26q11cgz8q0ri.cloudfront.net/2026/03/06115231/Radio-UdeC.png",
-            title: "Entrevista a Fernando Pérez, director principal de City Lab Biobío, por informe sobre impacto vial del 'súper lunes' en el Gran Concepción",
-            date: "04-03-206",
-            url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=52806131&email=553944&fromemail=1",
+            title: "Entrevista a Marcela Martínez, directora de estudios de City Lab Biobío, sobre la iniciativa 'Un Beso y Chao'",
+            date: "01-04-2026",
+            url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=53406981&email=558836&fromemail=1",
+            type: "Radio"
+        },
+        {
+            outlet: "TVU",
+            title: "Entrevista a Marcela Martínez, Directora de estudios City Lab Biobío, Beso y Chao promueve descensos rápidos",
+            date: "07-04-2026",
+            url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=53509752&email=559616&fromemail=1",
+            type: "Televisión"
+        },
+        {
+            outlet: "Diario Concepción",
+            title: "Un Beso y Chao: propuesta busca optimizar tiempos de traslado en zonas escolares",
+            date: "08-04-2026",
+            url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=53511443&email=559616&fromemail=1",
+            type: "Sitio web"
+        },
+        {
+            outlet: "Mundo Marítimo",
+            title: "Sistema portuario de Chile: Coordinación y tecnología emergen como claves para superar ...",
+            date: "16-04-2026",
+            url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=53734494&email=561435&fromemail=1",
+            type: "Sitio web"
+        },
+        {
+            outlet: "El Mercurio",
+            title: "Expertos plantean desafíos a viviendas de integración social y su aplicación en regiones",
+            date: "27-04-2026",
+            url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=53872560&email=562591&fromemail=1",
             type: "Prensa escrita"
         },
+        {
+            outlet: "El Sur",
+            title: "Piloto para agilizar el tránsito en colegio penquista disminuye congestión al 50%",
+            date: "06-05-2026",
+            url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=54042834&email=563974&fromemail=1",
+            type: "Prensa escrita",
+        }
     ];
 </script>
 
@@ -41,15 +58,12 @@
         <header>
             <a href="{base}/" class="back-link">← Volver</a>
             <h1>El lab en medios</h1>
-            <p class="tagline">Marzo 2026</p>
+            <p class="tagline">Abril - Mayo 2026</p>
         </header>
 
         <section class="media-grid" aria-label="Apariciones en medios">
             {#each mediaItems as item}
                 <a href={item.url} class="media-card" target="_blank" rel="noopener noreferrer">
-                    <div class="media-logo">
-                        <img src={item.logo} alt={item.outlet} />
-                    </div>
                     <div class="media-content">
                         <span class="media-type">{item.type}</span>
                         <span class="media-outlet">{item.outlet}</span>
@@ -140,21 +154,6 @@
         gap: 1.25rem;
         align-items: center;
         transition: all 0.18s ease;
-    }
-
-    .media-logo {
-        flex-shrink: 0;
-        width: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .media-logo img {
-        width: 80px;
-        height: 40px;
-        object-fit: contain;
-        filter: brightness(0);
     }
 
     .media-content {
