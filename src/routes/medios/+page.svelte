@@ -49,6 +49,13 @@
             date: "06-05-2026",
             url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=54042834&email=563974&fromemail=1",
             type: "Prensa escrita",
+        },
+        {
+            outlet: "T13",
+            title: "Santiaguinos se niegan a dejar el auto",
+            date: "10-05-2026",
+            url: "https://www.youtube.com/watch?v=kvlrrzomdDI"
+            type: "Televisión",
         }
     ];
 </script>
