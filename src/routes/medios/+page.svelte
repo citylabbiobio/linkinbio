@@ -54,7 +54,7 @@
             outlet: "T13",
             title: "Santiaguinos se niegan a dejar el auto",
             date: "10-05-2026",
-            url: "https://www.youtube.com/watch?v=kvlrrzomdDI"
+            url: "https://www.youtube.com/watch?v=kvlrrzomdDI",
             type: "Televisión",
         }
     ];
