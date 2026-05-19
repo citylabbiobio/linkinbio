@@ -56,8 +56,41 @@
             date: "10-05-2026",
             url: "https://www.youtube.com/watch?v=kvlrrzomdDI",
             type: "Televisión",
+        },
+        {
+            outlet: "TVU Noticias",
+            title: "Entrevista a Marcela Martínez por resultados de iniciativa \"Un Beso y Chao\"\n",
+            date: "13-05-2026",
+            url:"https://www.youtube.com/watch?v=0Rv7a2AP9WU",
+        },
+        {
+            outlet: "Sonar FM",
+            title: "Alza de combustibles reduce en 5% la congestión vehicular y aumenta uso de metro y tren en Chile",
+            date: "14-05-2026",
+            url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=54202396&email=565384&fromemail=1",
+        },
+        {
+            outlet: "ADN Radio",
+            title: "Estudio detecta impacto en movilidad tras alza de combustibles: caída promedia 5% a nivel nacional",
+            date: "14-05-2026",
+            url: "https://www.youtube.com/watch?v=NBl47FjJCOM",
+        },
+        {
+            outlet: "El Llanquihue de Puerto Montt",
+            title:"“Bencinazo”: estudio revela baja del 5% en circulación de vehículos",
+            date: "18-05-2026",
+            url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=54243083&email=565621&fromemail=1",
+        },
+        {
+            outlet: "El Sur",
+            title: "Congestión vehicular en Concepción bajó casi un 6% tras el alza de combustibles",
+            date: "19-05-2026",
+            url: "https://map.conectamedia.cl/index.php/clippingNews/view?id=54244300&email=565817&fromemail=1",
         }
-    ];
+    ].sort((a, b) => {
+        const parse = d => { const [day, month, year] = d.split('-'); return new Date(year, month - 1, day); };
+        return parse(a.date) - parse(b.date);
+    });
 </script>
 
 <main>
