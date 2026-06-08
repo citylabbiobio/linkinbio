@@ -13,8 +13,8 @@
     // Datos (const donde no se mutan)
     const mainLinks = [
         {
-          title: "City Science Biobío 2026",
-          description: "Cuatro de City Lab Biobío",
+          title: "City Science Biobío 2026 Expo",
+          description: "Cuatro años de City Lab Biobío",
           url: "https://cityscience.citylabbiobio.cl",
         },
         {
