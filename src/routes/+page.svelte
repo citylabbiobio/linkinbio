@@ -18,19 +18,9 @@
           url: "https://cityscience.citylabbiobio.cl",
         },
         {
-          title: "Visor Reporte Incendios 2026",
-          description: "Junto a Deep-Hub e Imagine-IT",
-          url: "https://reporteincendios.citylabbiobio.cl",
-        },
-        {
             title: "Microestudios",
             description: "Investigación urbana aplicada",
             url: "https://citylabbiobio.cl/documentos-y-estudios",
-        },
-        {
-            title: "Noticias",
-            description: "Lo último del laboratorio",
-            url: "https://citylabbiobio.cl/noticias",
         },
         {
             title: "El lab en medios",
@@ -43,20 +33,17 @@
             url: "https://citylabbiobio.cl/cities-in-transition",
         },
         {
-            title: "Inscripción Lanzamiento TJUSTO",
-            description: "Núcleo Milenio en Transporte Justo",
-            url: "https://docs.google.com/forms/d/e/1FAIpQLSdD03WdRMQGkTH2N9FNaybWA6HYOn2Z0fZgXqC7XIatS3Kh8A/viewform",
-        },
-        {
             title: "Contacto",
             description: "Conectemos",
             url: "mailto:contacto@citylabbiobio.cl",
         },
-        {
+        /*{
             title: "Transparencia",
             description: "Nuestros procesos abiertos",
             url: "https://citylabbiobio.cl/laboratorio-transparente/",
         }
+
+         */
     ];
 
     const socialLinks = [
