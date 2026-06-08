@@ -13,6 +13,11 @@
     // Datos (const donde no se mutan)
     const mainLinks = [
         {
+          title: "City Science Biobío 2026",
+          description: "Cuatro de City Lab Biobío",
+          url: "https://cityscience.citylabbiobio.cl",
+        },
+        {
           title: "Visor Reporte Incendios 2026",
           description: "Junto a Deep-Hub e Imagine-IT",
           url: "https://reporteincendios.citylabbiobio.cl",
