@@ -365,6 +365,10 @@
         display: block;
     }
 
+    .link-block:first-child {
+        grid-column: 1 / -1;
+    }
+
     .link-block h2 {
         font-size: 1.25rem;
         font-weight: 600;
